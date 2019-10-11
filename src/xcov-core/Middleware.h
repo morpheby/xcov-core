@@ -6,12 +6,12 @@
 #import <Foundation/Foundation.h>
 #import "DDCommandLineInterface.h"
 
-@interface Middleware : NSObject <DDCliApplicationDelegate> {
-    NSString * _source;
-    NSString * _output;
-    NSString *_ideFoundationPath;
-    BOOL _version;
-    BOOL _help;
-}
+@interface Middleware : NSObject <DDCliApplicationDelegate>
+
+@property (strong, nonatomic) NSString *source;
+@property (strong, nonatomic) NSString *output;
+@property (strong, nonatomic) NSString *ideFoundationPath;
+@property (assign, nonatomic) BOOL version;
+@property (assign, nonatomic) BOOL help;
 
 @end

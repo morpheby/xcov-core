@@ -12,6 +12,7 @@
 		072F06D71C5639E9004DAE1A /* DDCliUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F06D11C5639E9004DAE1A /* DDCliUtil.m */; };
 		072F06D81C5639E9004DAE1A /* DDGetoptLongParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F06D41C5639E9004DAE1A /* DDGetoptLongParser.m */; };
 		072F06DB1C563A28004DAE1A /* Middleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F06DA1C563A28004DAE1A /* Middleware.m */; };
+		8F4EB6BC2350E21200B2C469 /* CoreOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EB6BB2350E21200B2C469 /* CoreOptions.m */; };
 		A341BF2A1DD7BABA002F5084 /* IDESchemeActionCodeCoverageFile+Report.m in Sources */ = {isa = PBXBuildFile; fileRef = A341BF291DD7BABA002F5084 /* IDESchemeActionCodeCoverageFile+Report.m */; };
 		A381D1B91E166A34002A644A /* DVTSourceFileLineCoverageData+Report.m in Sources */ = {isa = PBXBuildFile; fileRef = A381D1B81E166A34002A644A /* DVTSourceFileLineCoverageData+Report.m */; };
 		A381D1BC1E167841002A644A /* IDESchemeActionCodeCoverageTarget+Report.m in Sources */ = {isa = PBXBuildFile; fileRef = A381D1BB1E167841002A644A /* IDESchemeActionCodeCoverageTarget+Report.m */; };
@@ -46,6 +47,7 @@
 		072F06D41C5639E9004DAE1A /* DDGetoptLongParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGetoptLongParser.m; sourceTree = "<group>"; };
 		072F06D91C563A28004DAE1A /* Middleware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Middleware.h; sourceTree = "<group>"; };
 		072F06DA1C563A28004DAE1A /* Middleware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Middleware.m; sourceTree = "<group>"; };
+		8F4EB6BB2350E21200B2C469 /* CoreOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreOptions.m; sourceTree = "<group>"; };
 		A341BF281DD7BABA002F5084 /* IDESchemeActionCodeCoverageFile+Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDESchemeActionCodeCoverageFile+Report.h"; sourceTree = "<group>"; };
 		A341BF291DD7BABA002F5084 /* IDESchemeActionCodeCoverageFile+Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDESchemeActionCodeCoverageFile+Report.m"; sourceTree = "<group>"; };
 		A381D1B71E166A34002A644A /* DVTSourceFileLineCoverageData+Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceFileLineCoverageData+Report.h"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				C1234B151D303B96004AB3A1 /* CoreOptions.h */,
+				8F4EB6BB2350E21200B2C469 /* CoreOptions.m */,
 				C1E6180C1C56326900FB32CE /* Core.h */,
 				C1E6180D1C56326900FB32CE /* Core.m */,
 				C1E6180E1C56326900FB32CE /* Reader.h */,
@@ -198,6 +201,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C1E617DE1C5631D800FB32CE;
@@ -224,6 +228,7 @@
 				072F06D81C5639E9004DAE1A /* DDGetoptLongParser.m in Sources */,
 				072F06D71C5639E9004DAE1A /* DDCliUtil.m in Sources */,
 				C1E617EB1C5631D900FB32CE /* main.m in Sources */,
+				8F4EB6BC2350E21200B2C469 /* CoreOptions.m in Sources */,
 				A381D1B91E166A34002A644A /* DVTSourceFileLineCoverageData+Report.m in Sources */,
 				072F06D61C5639E9004DAE1A /* DDCliParseException.m in Sources */,
 				A341BF2A1DD7BABA002F5084 /* IDESchemeActionCodeCoverageFile+Report.m in Sources */,
